@@ -6,22 +6,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class AISites {
+public class AISites extends Base {
 
-    WebDriver driver;
-
-    @BeforeClass
-    public void openBrowser()
-    {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-    }
-
-    @AfterClass
-    public void closeBrowser()
-    {
-        driver.close();
-    }
 
     @Test
     public void openAIHomepage() {

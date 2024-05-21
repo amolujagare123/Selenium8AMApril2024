@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-import static Reports.ForScreenshot.browserScreenshot;
+import static Reports.util.ForReports.browserScreenshot;
 
 public class LoginTest {
 
