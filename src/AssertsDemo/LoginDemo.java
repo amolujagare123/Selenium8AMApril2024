@@ -28,6 +28,8 @@ public class LoginDemo {
         WebElement btnLogin = driver.findElement(By.name("submit"));
         btnLogin.click();
 
+        //btnLogin.findElement(By.xpath())
+
         /*String expected = "POSNIC - Dashboard";
         String actual = driver.getTitle();
 */
